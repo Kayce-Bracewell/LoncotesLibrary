@@ -4,15 +4,15 @@ namespace LoncotesLibrary.Models;
 
 public class Checkout()
 {
-    int Id {get; set;}
+    public int Id {get; set;}
     [Required]
-    int MaterialId {get; set;}
-    Material Material {get; set;}
+    public int MaterialId {get; set;}
+    public Material Material {get; set;}
     [Required]
-    int PatronId {get; set;}
-    Patron Patron {get; set;}
+    public int PatronId {get; set;}
+    public Patron Patron {get; set;}
     [Required]
-    DateTime CheckoutDate {get; set;}
+    public DateTime CheckoutDate {get; set;}
 
-    DateTime? ReturnDate {get; set;}
+    public DateTime? ReturnDate {get; set;}
 }

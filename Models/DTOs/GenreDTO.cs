@@ -4,7 +4,7 @@ namespace LoncotesLibrary.Models.DTOs;
 
 public class GenreDTO()
 {
-    int Id {get; set;}
+    public int Id {get; set;}
     [Required]
-    string Name {get; set;}
+    public string Name {get; set;}
 }

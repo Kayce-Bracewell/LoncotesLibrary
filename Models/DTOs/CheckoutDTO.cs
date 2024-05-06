@@ -4,15 +4,15 @@ namespace LoncotesLibrary.Models.DTOs;
 
 public class CheckoutDTO()
 {
-    int Id {get; set;}
+    public int Id {get; set;}
     [Required]
-    int MaterialId {get; set;}
-    MaterialDTO Material {get; set;}
+    public int MaterialId {get; set;}
+    public MaterialDTO Material {get; set;}
     [Required]
-    int PatronId {get; set;}
-    PatronDTO Patron {get; set;}
+    public int PatronId {get; set;}
+    public PatronDTO Patron {get; set;}
     [Required]
-    DateTime CheckoutDate {get; set;}
+    public DateTime CheckoutDate {get; set;}
 
-    DateTime? ReturnDate {get; set;}
+    public DateTime? ReturnDate {get; set;}
 }
