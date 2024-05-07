@@ -1,4 +1,5 @@
 using System.ComponentModel.DataAnnotations;
+using LoncotesLibrary.Models.DTOs;
 
 namespace LoncotesLibrary.Models;
 
